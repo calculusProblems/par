@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Flash Game with Ruffle</title>
+  <script src="https://cdn.jsdelivr.net/npm/@ruffle-rs/ruffle@latest/ruffle.js"></script>
+</head>
+<body>
+  <div>
+    <embed id="hi" src="./worlds-hardest-game-4.swf" width="0" height="0">
+  </div>
+  <script>
+    document.getElementById("hi").height = screen.height
+    document.getElementById("hi").width = screen.width
+  </script>
+</body>
+</html>
